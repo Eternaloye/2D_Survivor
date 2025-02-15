@@ -7,8 +7,8 @@ public class Controller_Player : MonoBehaviour
     public float speed;             //移动速度
     private Rigidbody2D rig;        //刚体组件
     private Vector2 direction;      //移动方向
-    float moveX;                    //水平方向输入
-    float moveY;                    //竖直方向输入
+    private float moveX;            //水平方向输入
+    private float moveY;            //竖直方向输入
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
